@@ -1,0 +1,9 @@
+Para criar um comando de fechar a barra lateral:
+Use o comando ctrl+shift+P dentro do vscode escreva Hide Activity Bar, clique no botão de engrenagem dele, clique no botão de lápis, crie um comando que não esteja sendo usado pelo vscode, por exemplo ctrl+alt+L e aperte no botão Enter do teclado e feche essa janela
+
+Para criar um comando de abrir a barra lateral de volta:
+Use o comando ctrl+shift+P dentro do vscode escreva Focus Activity Bar, clique no botão de engrenagem dele, clique no botão de lápis, crie um comando que não esteja sendo usado pelo vscode, por exemplo ctrl+alt+P e aperte no botão Enter do teclado e feche essa janela
+
+Agora você já pode testar usando os dois comandos que você criou (por exemplo, clicando ctrl+alt+L para fechar e depois ctrl+alt+p para abrir a barra lateral)
+
+Caso tenha criado um comando diferente e tenha esquecido siga o mesmo caminho ensinado no início deste tutorial para lembrar ou alterar o comando novamente, ou apagar clicando nele e depois na tecla Delete do teclado

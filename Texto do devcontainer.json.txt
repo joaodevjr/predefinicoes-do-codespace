@@ -1,0 +1,17 @@
+{
+  "name": "Personalização do codespace", // Identificação deste .devcontainer ao criar um novo codespace
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscode-icons-team.vscode-icons", // Extensão de ícones dos arquvios
+        "esbenp.prettier-vscode", // Formata o código automaticamente
+        "naumovs.color-highlight", // Cria um background no valor de cor com a cor atual do valor
+        "ritwickdey.LiveServer" // Oferece um servidor nativo para a visualização de uma página web estática em tempo real. Obs.: O comando Alt+L+O executa ele
+      ]
+    }
+  },
+
+  // Isso executa o sript de personalização, depois atualiza e liga o Codespace ao registro de futuros links de repositórios ↓
+  "postCreateCommand": "bash .devcontainer/script-personalizacao.sh && git submodule update --init --recursive"
+}
