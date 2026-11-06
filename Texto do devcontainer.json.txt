@@ -1,5 +1,5 @@
 {
-  "name": "Personalização do codespace", // Identificação deste .devcontainer ao criar um novo codespace
+  "name": "Predefinições do codespace", // Identificação deste .devcontainer ao criar um novo codespace
 
   "customizations": {
     "vscode": {
